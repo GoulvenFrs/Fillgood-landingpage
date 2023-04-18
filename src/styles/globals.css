@@ -1558,6 +1558,7 @@ body::-webkit-scrollbar {
     /*  margin-top: 12vh; */
     position: relative;
     color: var(--color2);
+    margin-bottom: 5%;;
   }
 
   .Roadmap h2 {
@@ -1569,8 +1570,8 @@ body::-webkit-scrollbar {
 
   .Roadmap .bloc {
     background: var(--color4);
-    margin-bottom: 3rem;
-    padding: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
     position: relative;
     margin-left: 2%;
     border-radius: 2rem;
@@ -1580,14 +1581,14 @@ body::-webkit-scrollbar {
     font-family: "NeueMontrealRegular";
     color: var(--color3);
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin-left: 2rem;
     margin-bottom: 0.5rem;
   }
 
   .Roadmap p {
     font-family: "Inter";
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.25rem;
     margin-left: 3rem;
     margin-right: 2rem;
@@ -1627,21 +1628,25 @@ body::-webkit-scrollbar {
   /*/////   TEAM   /////*/
 
   .team {
+    
     display: flex;
     /* align-items: center; */
     margin: auto;
+    margin-top:50%;
   }
 
   .team h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
     color: var(--color2);
+    font-size: 3rem;
   }
 
   .team .team__flex {
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
+    /* flex-direction: column; */
   }
 
   .team .member {
@@ -1664,13 +1669,13 @@ body::-webkit-scrollbar {
   .team .member h4 {
     margin-bottom: 1rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: var(--color2);
   }
 
   .team .member .job {
     color: var(--color6);
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 400;
     text-transform: uppercase;
   }
@@ -1682,11 +1687,12 @@ body::-webkit-scrollbar {
   }
 
   .memberDescription {
-    text-align: justify;
-    margin: 1.5em;
+    text-align: left;
+    margin: 0.5rem;
     color: var(--color2);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: "Inter";
+    overflow: hidden;
   }
 
   /*/////   CONTACT   /////*/
