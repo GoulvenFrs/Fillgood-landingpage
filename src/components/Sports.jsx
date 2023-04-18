@@ -13,7 +13,7 @@ export default function Sports() {
     <div className="MainSection Background1 Home">
       <div className="MainSectionZoneText Home">
         <p className="SportsTitle top">FAITES VOTRE CHOIX PARMI LES</p>
-        <p className="SportsTitle">MILLIERS D'EXPÉRIENCES SPORTIVES</p>
+        <p className="SportsTitle">MILLIERS D&apos;EXPÉRIENCES SPORTIVES</p>
         <p className="SportsTitle">RÉFÉRENCÉES SUR <span className="green logo">Fillgood</span></p>
         <Carousel show={3} /* infiniteLoop */ >
           <div className="Card">

@@ -10,7 +10,7 @@ export default function Product() {
             <p className="ProductSectionTitle1" > GAGNEZ</p>
             <p className="ProductSectionTitle1" >DES FIGOS !</p>
 
-            <p className="ProductSectionSubTitle1 top" >Le token sport qui récompense l'activité physique de la communauté Fillgood.</p>
+            <p className="ProductSectionSubTitle1 top" >Le token sport qui récompense l&apos;activité physique de la communauté Fillgood.</p>
             <p className="ProductSectionSubTitle2 top" >Enregistrez immédiatement votre preuve de participation !</p>
           </div>
         </div>
