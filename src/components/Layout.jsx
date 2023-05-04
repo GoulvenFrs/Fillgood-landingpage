@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <>
       <Head>
         <title>FillGood</title>
-        <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
+        <link rel="icon" type="image/x-icon" href="/logo1.ico"></link>
       </Head>
       <Menu/>
       <main>{children}</main>

@@ -10,7 +10,7 @@ export default function Team() {
         <div className="team">
           <div className="container">
             <h2 data-aos="zoom-in">
-              THE <span className="green">TEAM</span>
+              THE <span className="orange">TEAM</span>
             </h2>
             <div className="team__flex">
               <div className="member" data-aos="zoom-in">

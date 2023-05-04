@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 
-import Logo from "../images/logo2.png"
+import Logo from "../images/logo1.png"
 
 export default function Menu() {
     return (
