@@ -5,8 +5,8 @@ import Image from 'next/image'
 export default function Roadmap() {
   
     return (
-        <div  className="MainSection Background2 Roadmap">
-          <div className="MainSectionZoneText Roadmap">
+        <div  className="MainSection Background2 Home Roadmap">
+          <div className="MainSectionZoneText Home Roadmap">
 
               <div className="container">
                 <h2 data-aos="zoom-in">THE <span className="green">ROADMAP</span></h2>

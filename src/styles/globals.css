@@ -458,13 +458,13 @@ body::-webkit-scrollbar {
   }
 
   /*/////   ROADMAP   /////*/
-
+/* 
   .Roadmap {
     height: 100% !important;
   }
   .Roadmap::before {
     height: 100% !important;
-  }
+  } */
 
   .Roadmap .container {
     /*  margin-top: 12vh; */
@@ -596,7 +596,7 @@ body::-webkit-scrollbar {
     text-align: justify;
     margin: 1.5em;
     color: var(--color2);
-    font-size: 1rem;
+    font-size: 1.2em;
     font-family: "Inter";
   }
 
@@ -610,11 +610,20 @@ body::-webkit-scrollbar {
     font-weight: 700;
     font-family: "Thunder";
     text-align: left;
+    text-transform:uppercase ;
     /* width:45vw; */
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-left: 5%;
     z-index: 10;
+  }
+
+  .uncapitalize {
+    text-transform:none!important ;
+  }
+
+  .Form{
+    z-index: 100;
   }
 }
 

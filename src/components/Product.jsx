@@ -7,11 +7,11 @@ export default function Product() {
         <div  className="MainSection Background2 Home">
           <div className="MainSectionZoneText Home">
             <Image  className="ProductSectionImg1" src={Runner} alt=""/>
-            <p className="ProductSectionTitle1" > GAGNEZ</p>
-            <p className="ProductSectionTitle1" >DES FIGOS !</p>
+            <p className="ProductSectionTitle1" > EARN</p>
+            <p className="ProductSectionTitle1" >SOME FIGOS !</p>
 
-            <p className="ProductSectionSubTitle1 top" >Le token sport qui récompense l&apos;activité physique de la communauté Fillgood.</p>
-            <p className="ProductSectionSubTitle2 top" >Enregistrez immédiatement votre preuve de participation !</p>
+            <p className="ProductSectionSubTitle1 top" >The sports token that rewards physical activity in the Fillgood community.</p>
+            <p className="ProductSectionSubTitle2 top" >Register your proof of participation immediately!</p>
           </div>
         </div>
     );

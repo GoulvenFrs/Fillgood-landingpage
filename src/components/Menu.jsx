@@ -15,7 +15,7 @@ export default function Menu() {
         </Link>
 
         <div className="MenuItemContainer">
-            <Link href="#product" className="MenuItem">Produit</Link>
+            <Link href="#product" className="MenuItem">Product</Link>
             <Link href="#sports" className="MenuItem">Sports</Link>
             <Link href="#roadmap" className="MenuItem">Roadmap</Link>
             <Link href="#team" className="MenuItem">Team</Link>

@@ -8,12 +8,12 @@ export default function Home() {
         <div  className="MainSection Background1 Home">
           <div className="MainSectionZoneText Home">
             <Image  className="HomeSectionImg1" src={Runner} alt=""/>
-            <p className="HomeSectionTitle1" > BOUGEZ,</p>
-            <p className="HomeSectionTitle1" >AMUSEZ-VOUS</p>
-            <p className="HomeSectionTitle1" >ET RECEVEZ</p>
-            <p className="HomeSectionTitle1" >VOS RÉCOMPENSES !</p>
-            <p className="HomeSectionSubTitle1 top" >Participez aux expériences sportives Fillgood</p>
-            <p className="HomeSectionSubTitle1" >et remportez vos premiers Figos !</p>
+            <p className="HomeSectionTitle1" > MOVE,</p>
+            <p className="HomeSectionTitle1" >HAVE FUN</p>
+            <p className="HomeSectionTitle1" >AND COLLECT</p>
+            <p className="HomeSectionTitle1" >YOUR REWARDS !</p>
+            <p className="HomeSectionSubTitle1 top" >Participate in Fillgood sports experiences</p>
+            <p className="HomeSectionSubTitle1" >and earn your first Figos !</p>
           </div>
         </div>
     );

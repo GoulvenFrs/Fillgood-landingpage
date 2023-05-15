@@ -16,19 +16,19 @@ export default function Team() {
               <div className="member" data-aos="zoom-in">
                 <Image className="ImageTeam" src={William} alt="William" />
                 <h4>
-                  William / <span className="job">Direction générale</span>
+                  William / <span className="job">General Management</span>
                 </h4>
                 <p className="memberDescription">
-                  William a étudié à l&apos;université de Corte et est titulaire d&apos;un master en économie du tourisme. Apres une dizaine d&apos;années d&apos;expérience dans l&apos;entertainment , il oriente sa carrière vers la finance d&apos;entreprise puis se forme à la technologie blockchain au sein de l&apos;école Alyra. Convaincu de l&apos;importance de l&apos;activité physique pour le bien être général de la communauté, William contribue aujourd&apos;hui à la construction du projet Fillgood avec pour mission d&apos;accompagner les utilisateurs de la plateforme vers une pratique sportive plus régulière.
+                William studied at the University of Corte and holds a master's degree in tourism economics. After ten years of experience in the entertainment industry, he turned his career towards corporate finance and then trained in blockchain technology at the Alyra school. Convinced of the importance of physical activity for the general well-being of the community, William is now helping to build the Fillgood project with the mission of helping the platform's users to practice sports more regularly.
                 </p>
               </div>
               <div className="member" data-aos="zoom-in">
                 <Image className="ImageTeam" src={Goulven} alt="Goulven" />
                 <h4>
-                  Goulven / <span className="job">Direction technique</span>
+                  Goulven / <span className="job">Technical management</span>
                 </h4>
                 <p className="memberDescription">
-                Goulven est l&apos;actuel directeur technique de la plateforme. Ingénieur généraliste, il s&apos;est ensuite spécialisé dans la gestion de projets IT. Son expérience de Chef de produit lui donne aujourd&apos;hui une compréhension du marché, de ses produits et une connaissance du marketing importante pour le développement de Fillgood. Goulven s&apos;est récemment formée aux spécificités de la blockchain au sein de l&apos;école Alyra et maitrise désormais la réalisation de DApps avec Truffle, Hardhat, Ethers.js et Web3.js.
+                Goulven is the current CTO of the platform. He is a general engineer and then specialized in IT project management. His experience as a Product Manager gives him an understanding of the market, its products and marketing knowledge that is important to Fillgood's development. Goulven recently trained in the specifics of blockchain at the Alyra school and now masters the creation of DApps with Truffle, Hardhat, Ethers.js and Web3.js.
                 </p>
                 
               </div>

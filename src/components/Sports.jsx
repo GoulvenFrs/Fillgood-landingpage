@@ -12,64 +12,64 @@ export default function Sports() {
   return (
     <div className="MainSection Background1 Home">
       <div className="MainSectionZoneText Home">
-        <p className="SportsTitle top">FAITES VOTRE CHOIX PARMI LES</p>
-        <p className="SportsTitle">MILLIERS D&apos;EXPÉRIENCES SPORTIVES</p>
-        <p className="SportsTitle">RÉFÉRENCÉES SUR <span className="green logo">Fillgood</span></p>
+        <p className="SportsTitle top">CHOOSE FROM </p>
+        <p className="SportsTitle">HUNDREDS OF SPORTS EXPERIENCES</p>
+        <p className="SportsTitle">REFERENCED ON <span className="green logo">Fillgood</span></p>
         <Carousel show={3} /* infiniteLoop */ >
           <div className="Card">
             <div>
               <Image src={Basket} alt="basket" className="CardImage" />
             </div>
-            <p className="CardText">En groupe</p>
+            <p className="CardText">Team</p>
             <p className="CardTitle">BASKETBALL</p>
           </div>
           <div className="Card">
             <div>
               <Image src={Rider} alt="rider" className="CardImage" />
             </div>
-            <p className="CardText">En groupe</p>
+            <p className="CardText">Team</p>
             <p className="CardTitle">RIDE AND PLAY</p>
           </div>
           <div className="Card">
             <div>
               <Image src={Special} alt="special" className="CardImage" />
             </div>
-            <p className="CardText">En groupe</p>
+            <p className="CardText">Team</p>
             <p className="CardTitle">SPECIAL</p>
           </div>
           <div className="Card">
             <div>
               <Image src={Rider2} alt="rider" className="CardImage" />
             </div>
-            <p className="CardText">En solo</p>
+            <p className="CardText">Solo</p>
             <p className="CardTitle">RIDE </p>
           </div>
           <div className="Card">
             <div>
               <Image src={Basket} alt="basket" className="CardImage" />
             </div>
-            <p className="CardText">En groupe</p>
+            <p className="CardText">Team</p>
             <p className="CardTitle">BASKETBALL</p>
           </div>
           <div className="Card">
             <div>
               <Image src={Rider} alt="rider" className="CardImage" />
             </div>
-            <p className="CardText">En groupe</p>
+            <p className="CardText">Team</p>
             <p className="CardTitle">RIDE AND PLAY</p>
           </div>
           <div className="Card">
             <div>
               <Image src={Special} alt="special" className="CardImage" />
             </div>
-            <p className="CardText">En groupe</p>
+            <p className="CardText">Team</p>
             <p className="CardTitle">SPECIAL</p>
           </div>
           <div className="Card">
             <div>
               <Image src={Rider2} alt="rider" className="CardImage" />
             </div>
-            <p className="CardText">En solo</p>
+            <p className="CardText">Solo</p>
             <p className="CardTitle">RIDE </p>
           </div>
         </Carousel>

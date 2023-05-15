@@ -1,25 +1,36 @@
-import Image from 'next/image'
-
-import Runner from "../images/Runner3.png"
-
+import Image from "next/image";
+import React from "react";
+import { useForm } from "@formcarry/react";
+import Runner from "../images/Runner3.png";
 
 export default function Contact() {
-    return (
-        <div  className="MainSection Background2 Home">
-          <div className="MainSectionZoneText Home">
-            <Image  className="HomeSectionImg1" src={Runner} alt=""/>
-            <p className="ContactSectionTitle1" > VOUS AUSSI PROPOSEZ</p>
-            <p className="ContactSectionTitle1" >VOS EXPÉRIENCES </p>
-            <p className="ContactSectionTitle1" >SPORTIVES A LA</p>
-            <p className="ContactSectionTitle1" >COMMUNAUTÉ <span className="logo green">Fillgood &nbsp;</span></p>
-            <form action="/send-data-here" method="post">
-              <label >First name:</label>
-              <input type="text" id="first" name="first" />
-              <label >Last name:</label>
-              <input type="text" id="last" name="last" />
-              <button type="submit">Submit</button>
-            </form>
-          </div>
-        </div>
-    );
-  };
+  // Call the "useForm" hook in your function component
+  const { state, submit } = useForm({
+    id: "D1Or4ZyMxI",
+  });
+
+  // Success message
+  if (state.submitted) {
+    return <div>Thank you! We received your submission.</div>;
+  }
+  return (
+    <div className="MainSection Background2 Home">
+      <div className="MainSectionZoneText Home">
+        <Image className="HomeSectionImg1" src={Runner} alt="" />
+        <p className="ContactSectionTitle1"> you too can propose</p>
+        <p className="ContactSectionTitle1">your sports </p>
+        <p className="ContactSectionTitle1">experiences to the</p>
+        <p className="ContactSectionTitle1">
+        community <span className="logo green uncapitalize ">Fillgood &nbsp;</span>
+        </p>
+        <form className="Form" onSubmit={submit}>
+          <label htmlFor="email">Email</label>
+          <input id="email" type="email" name="email" />
+          <label htmlFor="message">Message</label>
+          <textarea id="message" name="message" />
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  );
+}
