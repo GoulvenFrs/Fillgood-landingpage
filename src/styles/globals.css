@@ -624,6 +624,28 @@ body::-webkit-scrollbar {
 
   .Form{
     z-index: 100;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top:5%;
+    margin-left: 7%;
+  }
+
+  .Input{
+    margin-bottom: 2%;
+    border-radius: 1em;
+    padding:0.5em;
+    /* width: 50%; */
+  }
+
+  .ButtonForm{
+    background: linear-gradient(to right, var(--color4) 0%, var(--color1) 100%);
+    border-radius: 1em;
+    padding: 0.5em;
+    font-family: "Inter" ;
+    font-weight: bold;
+    color: var(--color5);
+    width: 20%;
   }
 }
 

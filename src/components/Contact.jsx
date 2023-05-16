@@ -10,9 +10,9 @@ export default function Contact() {
   });
 
   // Success message
-  if (state.submitted) {
+/*   if (state.submitted) {
     return <div>Thank you! We received your submission.</div>;
-  }
+  } */
   return (
     <div className="MainSection Background2 Home">
       <div className="MainSectionZoneText Home">
@@ -24,11 +24,11 @@ export default function Contact() {
         community <span className="logo green uncapitalize ">Fillgood &nbsp;</span>
         </p>
         <form className="Form" onSubmit={submit}>
-          <label htmlFor="email">Email</label>
-          <input id="email" type="email" name="email" />
-          <label htmlFor="message">Message</label>
-          <textarea id="message" name="message" />
-          <button type="submit">Send</button>
+          {/* <label htmlFor="email">Email</label> */}
+          <input id="email" type="email" name="email" placeholder="Email" className="Input"/>
+          {/* <label htmlFor="message">Message</label> */}
+          <textarea id="message" name="message" placeholder="Message" rows="5" className="Input" />
+          <button className="ButtonForm" type="submit">Send !</button>
         </form>
       </div>
     </div>

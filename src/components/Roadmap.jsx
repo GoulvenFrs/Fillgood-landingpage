@@ -32,7 +32,6 @@ export default function Roadmap() {
                   <p>Launch of the Dapp on mainnet and airdrop for beta testers and the community.</p>
                 </div>
               </div>
-
           </div>
         </div>
     );
