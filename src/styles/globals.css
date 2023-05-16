@@ -158,6 +158,34 @@ body::-webkit-scrollbar {
     bottom: 0;
   }
 
+  .FooterLogoContainer {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    width: 20%;
+    margin-left: 25%;
+  }
+
+  .FooterItemContainer {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+  }
+
+  .FooterText{
+    color:var(--color4);
+    margin-right: 1%;
+  }
+
+  .FooterSocials{
+    height: 32px;
+    width:32px;
+    margin:1%;
+    cursor: pointer;
+  }
+
   /*/////   MAIN  /////*/
   .Main {
     width: 100%;
@@ -741,6 +769,10 @@ body::-webkit-scrollbar {
     height: 12vh;
     z-index: 120;
     bottom: 0;
+  }
+
+  .FooterText{
+
   }
 
   /*/////   MAIN  /////*/
