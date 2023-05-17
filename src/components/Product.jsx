@@ -11,7 +11,7 @@ export default function Product() {
             <p className="ProductSectionTitle1" >SOME FIGOS !</p>
 
             <p className="ProductSectionSubTitle1 top" >The sports token that rewards physical activity in the Fillgood community.</p>
-            <p className="ProductSectionSubTitle2 top" >Register your proof of participation immediately!</p>
+            <a className="ProductSectionSubTitle2 top" href="https://discord.gg/VNqjMgQH" target="_blank" >Join the Discord !</a>
           </div>
         </div>
     );

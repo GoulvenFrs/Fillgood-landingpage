@@ -19,9 +19,9 @@ export default function Footer() {
 
         <div className="FooterItemContainer">
           <p className="FooterText" >FOLLOW US </p>
-          <Image className="FooterSocials" src={Discord} alt="Discord"/>
-          <Image className="FooterSocials" src={Linkedin} alt="Linkedin"/>
-          <Image className="FooterSocials" src={Twitter} alt="Twitter"/>
+          <a href="https://discord.gg/VNqjMgQH" target="_blank"><Image className="FooterSocials" src={Discord} alt="Discord"/></a>
+          <a href="https://www.linkedin.com/company/fillgood-fr" target="_blank"><Image className="FooterSocials" src={Linkedin} alt="Linkedin"/></a>
+          <a href="https://twitter.com/FILLGOODoff" target="_blank"><Image className="FooterSocials" src={Twitter} alt="Twitter"/></a>
 
         </div>
 

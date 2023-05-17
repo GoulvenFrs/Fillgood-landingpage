@@ -17,7 +17,7 @@ export default function Contact() {
     <div className="MainSection Background2 Home">
       <div className="MainSectionZoneText Home">
         <Image className="HomeSectionImg1" src={Runner} alt="" />
-        <p className="ContactSectionTitle1"> you too can propose</p>
+        <p className="ContactSectionTitle1"> You too can propose</p>
         <p className="ContactSectionTitle1">your sports </p>
         <p className="ContactSectionTitle1">experiences to the</p>
         <p className="ContactSectionTitle1">

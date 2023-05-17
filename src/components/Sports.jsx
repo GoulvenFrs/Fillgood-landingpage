@@ -7,6 +7,7 @@ import Basket from "../images/sports/basket.png";
 import Rider from "../images/sports/rider.png";
 import Special from "../images/sports/special.png";
 import Rider2 from "../images/sports/rider2.png";
+import Boxe from "../images/sports/Boxe.jpeg";
 
 export default function Sports() {
   return (
@@ -46,12 +47,12 @@ export default function Sports() {
           </div>
           <div className="Card">
             <div>
-              <Image src={Basket} alt="basket" className="CardImage" />
+              <Image src={Boxe} alt="boxe" className="CardImage" />
             </div>
-            <p className="CardText">Team</p>
-            <p className="CardTitle">BASKETBALL</p>
+            <p className="CardText">Solo</p>
+            <p className="CardTitle">BOXE</p>
           </div>
-          <div className="Card">
+{/*           <div className="Card">
             <div>
               <Image src={Rider} alt="rider" className="CardImage" />
             </div>
@@ -71,7 +72,7 @@ export default function Sports() {
             </div>
             <p className="CardText">Solo</p>
             <p className="CardTitle">RIDE </p>
-          </div>
+          </div> */}
         </Carousel>
       </div>
     </div>
