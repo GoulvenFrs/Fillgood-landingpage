@@ -28,7 +28,7 @@ export default function Team() {
                   Goulven / <span className="job">Technical management</span>
                 </h4>
                 <p className="memberDescription">
-                Goulven is the current CTO of the platform. He is a general engineer and then specialized in IT project management. His experience as a Product Manager gives him an understanding of the market, its products and marketing knowledge that is important to Fillgood&apos;s development. Goulven recently trained in the specifics of blockchain at the Alyra school and now masters the creation of DApps with Truffle, Hardhat, Ethers.js and Web3.js.
+                Goulven is the current CTO of the platform. He is a general engineer with a MBA and specializes in IT project management. His experience as a Product Manager gives him an understanding of the market, its products and marketing knowledge that is important to Fillgood&apos;s development. Goulven recently trained in the specifics of blockchain at the Alyra school and now masters the creation of DApps.
                 </p>
                 
               </div>

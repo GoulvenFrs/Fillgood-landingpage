@@ -15,20 +15,20 @@ export default function Contact() {
   } */
   return (
     <div className="MainSection Background2 Home">
-      <div className="MainSectionZoneText Home">
-        <Image className="HomeSectionImg1" src={Runner} alt="" />
+      <div data-aos="zoom-in" className="MainSectionZoneText Home">
+        <Image className="ContactSectionImg1" src={Runner} alt="" />
         <p className="ContactSectionTitle1"> You too can propose</p>
         <p className="ContactSectionTitle1">your sports </p>
         <p className="ContactSectionTitle1">experiences to the</p>
         <p className="ContactSectionTitle1">
         community <span className="logo green uncapitalize ">Fillgood &nbsp;</span>
         </p>
-        <form className="Form" onSubmit={submit}>
+        <form  className="Form" onSubmit={submit}>
           {/* <label htmlFor="email">Email</label> */}
-          <input id="email" type="email" name="email" placeholder="Email" className="Input"/>
+          <input data-aos="zoom-in" data-aos-duration="200" id="email" type="email" name="email" placeholder="Email" className="Input"/>
           {/* <label htmlFor="message">Message</label> */}
-          <textarea id="message" name="message" placeholder="Message" rows="5" className="Input" />
-          <button className="ButtonForm" type="submit">Send !</button>
+          <textarea data-aos="zoom-in" data-aos-duration="400" id="message" name="message" placeholder="Message" rows="5" className="Input" />
+          <button data-aos="zoom-in" data-aos-duration="600" className="ButtonForm" type="submit">Send !</button>
         </form>
       </div>
     </div>
