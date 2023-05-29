@@ -10,7 +10,7 @@ export default function Roadmap() {
 
               <div className="container">
                 <h2 data-aos="zoom-in">THE <span className="green">ROADMAP</span></h2>
-                <div className="line"></div>
+                <div className="line" data-aos="zoom-in" ></div>
                 <div className="bloc" data-aos="zoom-in">
                   <div className="number">1</div>
                   <h4>Q1/Q2 2023 : Landing page & Discord launch</h4>
