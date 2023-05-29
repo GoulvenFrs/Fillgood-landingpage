@@ -17,7 +17,7 @@ export default function Sports() {
         <p data-aos="zoom-in" data-aos-duration="200"className="SportsTitle">HUNDREDS OF SPORTS EXPERIENCES</p>
         <p data-aos="zoom-in" data-aos-duration="300"className="SportsTitle">REFERENCED ON <span className="green logo">Fillgood</span></p>
         <Carousel show={3} /* infiniteLoop */ >
-          <div data-aos="zoom-in" data-aos-duration="8000" className="Card">
+          <div data-aos="zoom-in" data-aos-duration="800" className="Card">
             <div>
               <Image src={Basket} alt="basket" className="CardImage" />
             </div>
@@ -38,14 +38,14 @@ export default function Sports() {
             <p className="CardText">Team</p>
             <p className="CardTitle">SPECIAL</p>
           </div>
-          <div data-aos="zoom-in" data-aos-duration="2700" className="Card">
+          <div data-aos="zoom-in" /* data-aos-duration="2700" */ className="Card">
             <div>
               <Image src={Rider2} alt="rider" className="CardImage" />
             </div>
             <p className="CardText">Solo</p>
             <p className="CardTitle">RIDE </p>
           </div>
-          <div data-aos="zoom-in" data-aos-duration="3400" className="Card">
+          <div data-aos="zoom-in" /* data-aos-duration="3400" */ className="Card">
             <div>
               <Image src={Boxe} alt="boxe" className="CardImage" />
             </div>
