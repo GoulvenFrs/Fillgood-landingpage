@@ -6,7 +6,7 @@ import Runner from "../images/Runner3.png";
 export default function Contact() {
   // Call the "useForm" hook in your function component
   const { state, submit } = useForm({
-    id: "D1Or4ZyMxI",
+    id: "3Xwe8FEA3u",
   });
 
   // Success message
