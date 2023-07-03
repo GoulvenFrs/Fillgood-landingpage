@@ -4,7 +4,7 @@ import Product from '@/components/Product';
 import Sports from '@/components/Sports';
 import Roadmap from '@/components/Roadmap';
 import Team from '@/components/Team';
-import Contact from '@/components/Contact';
+import WaitList from '@/components/WaitList';
 
 export default function Mainpage() {
 
@@ -21,7 +21,7 @@ export default function Mainpage() {
         <span id="team" className="Anchor"> </span>
         <Team/>
         <span id="contact" className="Anchor"> </span>
-        <Contact/>
+        <WaitList/>
       </div>
   );
 };

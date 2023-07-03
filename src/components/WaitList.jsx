@@ -3,7 +3,7 @@ import React from "react";
 import { useForm } from "@formcarry/react";
 import Runner from "../images/Runner3.png";
 
-export default function Contact() {
+export default function WaitList() {
   // Call the "useForm" hook in your function component
   const { state, submit } = useForm({
     id: "3Xwe8FEA3u",
