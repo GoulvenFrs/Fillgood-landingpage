@@ -19,7 +19,7 @@ export default function Menu() {
             <Link href="#sports" className="MenuItem">Sports</Link>
             <Link href="#roadmap" className="MenuItem">Roadmap</Link>
             <Link href="#team" className="MenuItem">Team</Link>
-            <Link href="#contact" className="MenuItem">Contact</Link>
+            <Link href="#contact" className="MenuItem">Waitlist</Link>
         </div>
         <div className="ConnectButton"> 
             {/* <ConnectButton /> */}
