@@ -20,7 +20,7 @@ export default function Home() {
             <div className="HomeItemContainer">
               <p className="HomeSocialText" data-aos="zoom-in" >FOLLOW US </p>
               <div className="HomeSocialGroup" >
-                <a data-aos="zoom-in" data-aos-duration="1000" href="https://discord.gg/vbaEg8rv" target="_blank"><Image className="HomeSocials" src={Discord} alt="Discord"/></a>
+                <a data-aos="zoom-in" data-aos-duration="1000" href="https://discord.gg/VAUWV3M9C6" target="_blank"><Image className="HomeSocials" src={Discord} alt="Discord"/></a>
                 <a data-aos="zoom-in" data-aos-duration="2000"href="https://www.linkedin.com/company/fillgood-fr" target="_blank"><Image className="HomeSocials" src={Linkedin} alt="Linkedin"/></a>
                 <a data-aos="zoom-in" data-aos-duration="3000"href="https://twitter.com/FILLGOODoff" target="_blank"><Image className="HomeSocials" src={Twitter} alt="Twitter"/></a>
               </div>

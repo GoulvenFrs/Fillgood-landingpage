@@ -27,7 +27,7 @@ export default function Contact() {
           {/* <label htmlFor="email">Email</label> */}
           <input data-aos="zoom-in" data-aos-duration="200" id="email" type="email" name="email" placeholder="Email" className="Input"/>
           {/* <label htmlFor="message">Message</label> */}
-          <textarea data-aos="zoom-in" data-aos-duration="400" id="message" name="message" placeholder="Message" rows="5" className="Input" />
+          <input id="message" name="message" className="InputWhiteListMessage" value="WhiteList"/>
           <button data-aos="zoom-in" data-aos-duration="600" className="ButtonForm" type="submit">Send !</button>
         </form>
       </div>

@@ -19,7 +19,7 @@ export default function Footer() {
 
         <div className="FooterItemContainer">
           <p className="FooterText" >FOLLOW US </p>
-          <a data-aos="zoom-in" data-aos-duration="250"href="https://discord.gg/vbaEg8rv" target="_blank"><Image className="FooterSocials" src={Discord} alt="Discord"/></a>
+          <a data-aos="zoom-in" data-aos-duration="250"href="https://discord.gg/VAUWV3M9C6" target="_blank"><Image className="FooterSocials" src={Discord} alt="Discord"/></a>
           <a data-aos="zoom-in" data-aos-duration="500"href="https://www.linkedin.com/company/fillgood-fr" target="_blank"><Image className="FooterSocials" src={Linkedin} alt="Linkedin"/></a>
           <a data-aos="zoom-in" data-aos-duration="750"href="https://twitter.com/FILLGOODoff" target="_blank"><Image className="FooterSocials" src={Twitter} alt="Twitter"/></a>
         </div>
