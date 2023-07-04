@@ -821,13 +821,21 @@ body::-webkit-scrollbar {
     /* margin-bottom: 2%; */
     border-radius: 1em;
     padding:0.5em;
-    width: 50%;
+    /* width: 50%; */
     margin-right: 2%;
     align-self: center;
   }
   
-  .InputWhiteListMessage{
+/*   .InputWhiteListMessage{
     display:none;
+  } */
+
+  .InputMail{
+    width: 40%;
+  }
+
+  .InputName{
+    width: 20%;
   }
 
   .ButtonWhiteList{
@@ -1561,13 +1569,18 @@ body::-webkit-scrollbar {
     /* margin-bottom: 2%; */
     border-radius: 1em;
     padding:0.5em;
-    width: 40%;
+    
     margin-right: 4%;
   }
 
-  .InputWhiteListMessage{
-    display:none;
+  .InputMail{
+    width: 40%;
   }
+
+  .InputName{
+    width: 20%;
+  }
+
 
   .ButtonWhiteList{
     background: var(--color1);

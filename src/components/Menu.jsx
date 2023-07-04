@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 
 import Logo from "../images/logo1.png";
-import En from "../images/united-kingdom.png"; 
+import En from "../images/united-states.png"; 
 import Fr from "../images/france.png"; 
 
 export default function Menu() {

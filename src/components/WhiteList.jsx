@@ -6,7 +6,8 @@ import Patch from "../images/pastille2.png";
 export default function WhiteList() {
   // Call the "useForm" hook in your function component
   const { state, submit } = useForm({
-    id: "3Xwe8FEA3u",
+    id: "Autofy5RJn",
+    /* debug: false, */
   });
 
   // Success message
@@ -16,9 +17,17 @@ export default function WhiteList() {
   return (
     <>
     <p className="ProductSectionSubTitle2 top"   data-aos="zoom-in" data-aos-duration="300"/*  href="https://discord.gg/vbaEg8rv"  target="_blank" */ >Join the Waitlist :</p>
-    <form  className="WhiteList" onSubmit={submit}>         
-        <input id="email" type="email" name="email" data-aos="zoom-in" data-aos-duration="200"  placeholder="Email" className="InputWhiteList" required/>
-        <input id="message" name="message" className="InputWhiteListMessage" defaultValue="WhiteList"/>
+    <form  className="WhiteList" onSubmit={submit}>  
+        {/* <label htmlFor="email">Email</label> */}
+        {/* <label htmlFor="message">Message</label> */} 
+        
+        <input id="firstName" name="firstName" className="InputWhiteList InputName" placeholder="First name"  required/>
+        <input id="lastName" name="lastName" className="InputWhiteList InputName" placeholder="Last name" required /> 
+         
+
+        <input id="email" type="email" name="email" data-aos="zoom-in" data-aos-duration="200"  placeholder="Email" className="InputWhiteList InputMail" required/>
+        {/* <input id="message" name="message" type="hidden"  defaultValue="WhiteList"/> */}
+        
         {/* <input type="hidden" name="_next" value="https://fillgood.io"></input> */}
         
         <button /* className="ButtonWhiteList" */ type="submit">

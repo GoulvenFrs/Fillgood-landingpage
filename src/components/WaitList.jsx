@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { useForm } from "@formcarry/react";
 import Runner from "../images/Runner3.png";
+import WhiteList from "./WhiteList";
 
 export default function WaitList() {
   // Call the "useForm" hook in your function component
@@ -23,13 +24,14 @@ export default function WaitList() {
         <p className="ContactSectionTitle1">
         community <span className="logo green uncapitalize ">Fillgood &nbsp;</span>
         </p>
-        <form  className="Form" onSubmit={submit}>
-          {/* <label htmlFor="email">Email</label> */}
+        <WhiteList/>
+{/*         <form  className="Form" onSubmit={submit}>
+          
           <input data-aos="zoom-in" data-aos-duration="200" id="email" type="email" name="email" placeholder="Email" className="Input"/>
-          {/* <label htmlFor="message">Message</label> */}
+          
           <input id="message" name="message" className="InputWhiteListMessage" defaultValue="WhiteList"/>
           <button data-aos="zoom-in" data-aos-duration="600" className="ButtonForm" type="submit">Send !</button>
-        </form>
+        </form> */}
       </div>
     </div>
   );
