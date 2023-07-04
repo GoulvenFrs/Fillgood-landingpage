@@ -11,7 +11,7 @@ export default function Product() {
             <p data-aos="zoom-in" data-aos-duration="200"className="ProductSectionTitle1" >SOME FIGOS !</p>
 
             <p data-aos="zoom-in" data-aos-duration="300"className="ProductSectionSubTitle1 top" >The sports token that rewards physical activity in the Fillgood community.</p>
-            <p className="ProductSectionSubTitle2 top"   data-aos="zoom-in" data-aos-duration="300"/*  href="https://discord.gg/vbaEg8rv"  target="_blank" */ >Join the Waitlist :</p>
+            {/* <p className="ProductSectionSubTitle2 top"   data-aos="zoom-in" data-aos-duration="300" >Join the Waitlist :</p> */}
             <WhiteList/>
           </div>
         </div>
