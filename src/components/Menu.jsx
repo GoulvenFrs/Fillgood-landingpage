@@ -25,10 +25,10 @@ export default function Menu() {
             <div className="dropdown" >
               <button  className="MenuItem dropbtn" >Litepaper</button>
               <div className="dropdown-content">
-                <a href="http://localhost:3000/Fillgood_Token_Lite_Paper_EN.pdf" target='_blank' rel='noopener noreferrer'>
+                <a href="../Fillgood_Token_Lite_Paper_EN.pdf" target='_blank' rel='noopener noreferrer'>
                   <Image className="country" src={En} alt=""/>
                 </a>
-                <a href="http://localhost:3000/Fillgood_Token_Lite_Paper_FR.pdf" target='_blank' rel='noopener noreferrer'>
+                <a href="../Fillgood_Token_Lite_Paper_FR.pdf" target='_blank' rel='noopener noreferrer'>
                   <Image className="country" src={Fr} alt=""/>
                 </a>
               </div>
