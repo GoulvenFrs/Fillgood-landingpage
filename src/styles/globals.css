@@ -336,6 +336,7 @@ body::-webkit-scrollbar {
     height: 60vh;
     position: absolute;
     object-fit: contain;
+    max-width: 80%;
 /*     right: 0;
     margin-left: 15vw; */
   }
@@ -845,7 +846,7 @@ body::-webkit-scrollbar {
   }
 
   .Patch{
-    height: 20vh;
+    height: 12vh;
     width: 20vh;
     object-fit: contain;
     transition: 0.2s;

@@ -11,7 +11,7 @@ export default function WhiteList() {
 
   // Success message
   if (state.submitted) {
-    return <div>Thank you! We received your submission.</div>;
+    return <div className="ProductSectionSubTitle2 top">Thank you! We received your submission.</div>;
   }
   return (
     <>

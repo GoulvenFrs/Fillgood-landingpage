@@ -35,9 +35,9 @@ export default function Menu() {
             </div>
 
         </div>
-        <div className="ConnectButton"> 
-            {/* <ConnectButton /> */}
-        </div>
+{/*         <div className="ConnectButton"> 
+            <ConnectButton />
+        </div> */}
 
       </div>
     );
