@@ -9,13 +9,13 @@ export default function WhiteList() {
   });
 
   // Success message
-/*   if (state.submitted) {
+  if (state.submitted) {
     return <div>Thank you! We received your submission.</div>;
-  } */
+  }
   return (
         <form  className="WhiteList" onSubmit={submit}>
-          <input data-aos="zoom-in" data-aos-duration="200" id="email" type="email" name="email" placeholder="Email" className="InputWhiteList"/>
-          <input id="message" name="message" className="InputWhiteListMessage" value="WhiteList"/>
+          <input  data-aos="zoom-in" data-aos-duration="200" id="email" type="email" name="email" placeholder="Email" className="InputWhiteList" required/>
+          <input id="message" name="message" className="InputWhiteListMessage" defaultValue="WhiteList"/>
           <button /* data-aos="zoom-in" data-aos-duration="600" */ className="ButtonWhiteList" type="submit">Subscribe !</button>
         </form>
   );
