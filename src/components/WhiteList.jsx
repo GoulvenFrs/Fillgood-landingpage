@@ -29,7 +29,7 @@ export default function WhiteList() {
         <input id="lastName" name="lastName" className="InputWhiteList InputName" placeholder="Last name" type="text" required /> 
          
 
-        <input id="email" type="email" name="email" data-aos="zoom-in" data-aos-duration="200"  placeholder="Email" className="InputWhiteList InputMail" required/>
+        <input id="email" type="email" name="email" /* data-aos="zoom-in" data-aos-duration="200"  */ placeholder="Email" className="InputWhiteList InputMail" required/>
         <input type="hidden" name="_gotcha"></input>
 
         <button className="flip-card" type="submit">
