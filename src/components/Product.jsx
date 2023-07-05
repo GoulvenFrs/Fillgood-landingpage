@@ -9,10 +9,10 @@ export default function Product() {
           <div className="MainSectionZoneText Home">
             <Image  className="ProductSectionImg1" src={Runner} alt=""/>
             <Image  className="ProductSectionImg1" src={Thunder} alt=""/>
-            <p data-aos="zoom-in" data-aos-duration="100"className="ProductSectionTitle1" > EARN</p>
-            <p data-aos="zoom-in" data-aos-duration="200"className="ProductSectionTitle1" >SOME FIGOS !</p>
+            <p data-aos="zoom-in" data-aos-duration="100"className="ProductSectionTitle1" > COLLECT YOUR</p>
+            <p data-aos="zoom-in" data-aos-duration="200"className="ProductSectionTitle1" > FIRST FIGOS !</p>
 
-            <p data-aos="zoom-in" data-aos-duration="300"className="ProductSectionSubTitle1 top" >The sports token that rewards physical activity in the Fillgood community.</p>
+            <p data-aos="zoom-in" data-aos-duration="300"className="ProductSectionSubTitle1 top" >It has never been more essential to participate !</p>
             {/* <p className="ProductSectionSubTitle2 top"   data-aos="zoom-in" data-aos-duration="300" >Join the Waitlist :</p> */}
             <WhiteList/>
           </div>

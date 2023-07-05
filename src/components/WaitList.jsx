@@ -18,12 +18,15 @@ export default function WaitList() {
     <div className="MainSection Background2 Home">
       <div data-aos="zoom-in" className="MainSectionZoneText Home">
         <Image className="ContactSectionImg1" src={Runner} alt="" />
-        <p className="ContactSectionTitle1"> You too can propose</p>
-        <p className="ContactSectionTitle1">your sports </p>
-        <p className="ContactSectionTitle1">experiences to the</p>
-        <p className="ContactSectionTitle1">
+        <p className="ContactSectionTitle1"> Join the waitlist </p>
+        <p className="ContactSectionTitle1"> to exclusively follow</p>
+        <p className="ContactSectionTitle1">the launch of <span className="logo green uncapitalize ">Fillgood &nbsp;</span>  </p>
+        <p className="ContactSectionTitle1"> and receive the first</p>
+        <p className="ContactSectionTitle1">rewards reserved for </p>
+        <p className="ContactSectionTitle1"> early adopters !</p>
+{/*         <p className="ContactSectionTitle1">
         community <span className="logo green uncapitalize ">Fillgood &nbsp;</span>
-        </p>
+        </p> */}
         <WhiteList/>
 {/*         <form  className="Form" onSubmit={submit}>
           

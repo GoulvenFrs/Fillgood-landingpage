@@ -15,8 +15,8 @@ export default function Home() {
             <p data-aos="zoom-in" data-aos-duration="200"className="HomeSectionTitle1" >HAVE FUN</p>
             <p data-aos="zoom-in" data-aos-duration="300"className="HomeSectionTitle1" >AND COLLECT</p>
             <p data-aos="zoom-in" data-aos-duration="400"className="HomeSectionTitle1" >YOUR REWARDS !</p>
-            <p data-aos="zoom-in" data-aos-duration="500"className="HomeSectionSubTitle1 top" >Participate in Fillgood sports experiences</p>
-            <p data-aos="zoom-in" data-aos-duration="600"className="HomeSectionSubTitle1" >and earn your first Figos !</p>
+            <p data-aos="zoom-in" data-aos-duration="500"className="HomeSectionSubTitle1 top" >Sport makes you Fillgood !</p>
+            {/* <p data-aos="zoom-in" data-aos-duration="600"className="HomeSectionSubTitle1" >and earn your first Figos !</p> */}
             <div className="HomeItemContainer">
               <p className="HomeSocialText" data-aos="zoom-in" >FOLLOW US </p>
               <div className="HomeSocialGroup" >

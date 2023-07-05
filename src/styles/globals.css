@@ -452,7 +452,7 @@ body::-webkit-scrollbar {
   .ProductSectionSubTitle2 {
     color: var(--color6);
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-weight: bolder;
     font-family: "Inter";
     text-align: center;
@@ -857,11 +857,61 @@ body::-webkit-scrollbar {
     height: 12vh;
     width: 20vh;
     object-fit: contain;
-    transition: 0.2s;
+    /* transition: 0.2s; */
   }
 
-  .Patch:hover{
+/*   .Patch:hover{
     transform: scale(1.1, 1.1);
+  } */
+
+  .flip-card {
+    /* background-color: transparent; */
+/*     width: 300px;
+    height: 300px; */
+    height: 12vh;
+    width: 20vh;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+/*   img{
+    width: 300px;
+    height: 300px;
+  } */
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg) /* rotateX(180deg) */ ;
+    /* transform: rotateZ(90deg); */
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+/*     background-color: #bbb;
+    color: black; */
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+/*     background-color: dodgerblue;
+    color: white; */
+    transform: rotateY(180deg) /* rotateX(180deg) */;
+    /* transform: rotateZ(90deg); */
   }
 
 
@@ -1204,7 +1254,7 @@ body::-webkit-scrollbar {
   .ProductSectionSubTitle2 {
     color: var(--color6);
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: bolder;
     font-family: "Inter";
     text-align: center;
