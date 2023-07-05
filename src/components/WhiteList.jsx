@@ -5,35 +5,40 @@ import Patch from "../images/pastille2.png";
 
 export default function WhiteList() {
   // Call the "useForm" hook in your function component
-  const { state, submit } = useForm({
+/*   const { state, submit } = useForm({
     id: "Autofy5RJn",
-    /* debug: false, */
-  });
+  }); */
 
 
 
   // Success message
-  if (state.submitted) {
-    return <div className="ProductSectionSubTitle2 top">Thank you! We received your submission.</div>;
-  }
+/*   if (state.submitted) {
+    return (
+    <>
+      <div className="ProductSectionSubTitle2 top">Thank you! We received your submission.</div>
+      <div className="HomeSectionSubTitle1"> Join the discord and take a look at the litepaper !</div>
+    </>
+    );
+  } */
   return (
     <>
     <p className="ProductSectionSubTitle2 top"   data-aos="zoom-in" data-aos-duration="300"/*  href="https://discord.gg/vbaEg8rv"  target="_blank" */ >Join the Waitlist :</p>
-    <form  className="WhiteList" onSubmit={submit} action="https://formcarry.com/s/{Autofy5RJn}" method="POST" acceptCharset="UTF-8">  
+    <form  className="WhiteList" /* onSubmit={submit} */ action="https://formcarry.com/s/3Xwe8FEA3u" method="POST" target="_blank" acceptCharset="UTF-8">  
 
         <input id="firstName" name="firstName" className="InputWhiteList InputName" placeholder="First name" type="text" required/>
         <input id="lastName" name="lastName" className="InputWhiteList InputName" placeholder="Last name" type="text" required /> 
          
 
         <input id="email" type="email" name="email" data-aos="zoom-in" data-aos-duration="200"  placeholder="Email" className="InputWhiteList InputMail" required/>
-        
+        <input type="hidden" name="_gotcha"></input>
+
         <button className="flip-card" type="submit">
 
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <Image className="Patch " src={Patch} alt=""/>
               </div>
-              <div class="flip-card-back">
+              <div className="flip-card-back">
                 <Image className="Patch " src={Patch} alt=""/>
               </div>
             </div>
