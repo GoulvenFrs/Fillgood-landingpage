@@ -9,7 +9,10 @@ export default function WhiteList() {
     id: "Autofy5RJn",
   }); */
 
-
+  function submit_form() {
+    document.getElementById("form1").submit();
+    document.getElementById("form1").reset();
+    }
 
   // Success message
 /*   if (state.submitted) {
@@ -23,7 +26,7 @@ export default function WhiteList() {
   return (
     <>
     <p className="ProductSectionSubTitle2 top"   data-aos="zoom-in" data-aos-duration="300"/*  href="https://discord.gg/vbaEg8rv"  target="_blank" */ >Join the Waitlist :</p>
-    <form  className="WhiteList" /* onSubmit={submit} */ action="https://formcarry.com/s/3Xwe8FEA3u" method="POST" target="_blank" acceptCharset="UTF-8">  
+    <form  id="form1" className="WhiteList" action="https://formcarry.com/s/3Xwe8FEA3u" method="POST" target="_blank" acceptCharset="UTF-8">  
 
         <input id="firstName" name="firstName" className="InputWhiteList InputName" placeholder="First name" type="text" required/>
         <input id="lastName" name="lastName" className="InputWhiteList InputName" placeholder="Last name" type="text" required /> 
@@ -32,7 +35,7 @@ export default function WhiteList() {
         <input id="email" type="email" name="email" /* data-aos="zoom-in" data-aos-duration="200"  */ placeholder="Email" className="InputWhiteList InputMail" required/>
         <input type="hidden" name="_gotcha"></input>
 
-        <button className="flip-card" type="submit">
+        <button className="flip-card" type="submit" onClick={submit_form}>
 
             <div className="flip-card-inner">
               <div className="flip-card-front">
