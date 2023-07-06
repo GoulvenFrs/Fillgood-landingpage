@@ -7,8 +7,9 @@ export default function Product() {
     return (
         <div  className="MainSection Background2 Home">
           <div className="MainSectionZoneText Home">
-            <Image  className="ProductSectionImg1" src={Runner} alt=""/>
             <Image  className="ProductSectionImg1" src={Thunder} alt=""/>
+            <Image  className="ProductSectionImg1" src={Runner} alt=""/>
+            
             <p data-aos="zoom-in" data-aos-duration="100"className="ProductSectionTitle1" > COLLECT YOUR</p>
             <p data-aos="zoom-in" data-aos-duration="200"className="ProductSectionTitle1" > FIRST FIGOS !</p>
 
