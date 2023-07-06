@@ -21,7 +21,7 @@ export default function Menu() {
             <Link href="#sports" className="MenuItem">Sports</Link>
             <Link href="#roadmap" className="MenuItem">Roadmap</Link>
             <Link href="#team" className="MenuItem">Team</Link>
-            <Link href="#contact" className="MenuItem">Waitlist</Link>
+            <Link href="#waitlist" className="MenuItem">Waitlist</Link>
             <div className="dropdown" >
               <button  className="MenuItem dropbtn" >Litepaper</button>
               <div className="dropdown-content">

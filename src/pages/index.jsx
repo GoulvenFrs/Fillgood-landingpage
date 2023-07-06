@@ -20,7 +20,7 @@ export default function Mainpage() {
         <Roadmap/>
         <span id="team" className="Anchor"> </span>
         <Team/>
-        <span id="contact" className="Anchor"> </span>
+        <span id="waitlist" className="Anchor"> </span>
         <WaitList/>
       </div>
   );
