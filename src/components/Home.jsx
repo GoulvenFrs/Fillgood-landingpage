@@ -17,6 +17,9 @@ export default function Home() {
             <p data-aos="zoom-in" data-aos-duration="400"className="HomeSectionTitle1" >YOUR REWARDS !</p>
             <p data-aos="zoom-in" data-aos-duration="500"className="HomeSectionSubTitle1 top" >Fillgood is a physical activity stimulation solution using the Proof of Attendance Protocol to
 	reward its users.</p>
+            <p data-aos="zoom-in" data-aos-duration="500"className="HomeSectionSubTitle1" >New generation Move2Earn, Fillgood financially values the simple participation in the
+activities offered on the platform and engages its community around two essential values of sport: pleasure and sharing.
+</p>
             {/* <p data-aos="zoom-in" data-aos-duration="600"className="HomeSectionSubTitle1" >and earn your first Figos !</p> */}
             <div className="HomeItemContainer">
               <p className="HomeSocialText" data-aos="zoom-in" >FOLLOW US </p>
