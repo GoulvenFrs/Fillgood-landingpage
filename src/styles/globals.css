@@ -69,9 +69,9 @@ body::-webkit-scrollbar {
 
 /*/////   RESPONSIVE SCREEN  /////*/
 
-.top {
-  padding-top: 2%;
-}
+/* .top {
+  padding-top: 0.5%;
+} */
 
 @media screen and (min-width: 1200px) {
   /*/////   MENU  /////*/
@@ -371,7 +371,7 @@ body::-webkit-scrollbar {
 
   .HomeItemContainer {
     display: flex;
-    margin-top:7vh;
+    margin-top:4vh;
     margin-left: 20vw;
     width: 30vw;
     flex-direction: column;
