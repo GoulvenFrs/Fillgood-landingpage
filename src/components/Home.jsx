@@ -11,15 +11,17 @@ export default function Home() {
         <div  className="MainSection Background1 Home">
           <div className="MainSectionZoneText Home">
             <Image  className="HomeSectionImg1" src={Runner} alt=""/>
-            <p data-aos="zoom-in" data-aos-duration="100"className="HomeSectionTitle1" > MOVE,</p>
-            <p data-aos="zoom-in" data-aos-duration="200"className="HomeSectionTitle1" >HAVE FUN</p>
+            {/* <p data-aos="zoom-in" data-aos-duration="100"className="HomeSectionTitle1" > MOVE,</p> */}
+            <p data-aos="zoom-in" data-aos-duration="200"className="HomeSectionTitle1" >MOVE, HAVE FUN</p>
             <p data-aos="zoom-in" data-aos-duration="300"className="HomeSectionTitle1" >AND COLLECT</p>
             <p data-aos="zoom-in" data-aos-duration="400"className="HomeSectionTitle1" >YOUR REWARDS !</p>
             <p data-aos="zoom-in" data-aos-duration="500"className="HomeSectionSubTitle1 " >Fillgood is a physical activity stimulation solution using the Proof of Attendance Protocol to
 	reward its users.</p>
   <br/>
+  <br/>
             <p data-aos="zoom-in" data-aos-duration="500"className="HomeSectionSubTitle1" >New generation Move2Earn, Fillgood financially values the simple participation in the
 activities offered on the platform and engages its community around two essential values of sport : pleasure and sharing.</p>
+<br/>
 <p data-aos="zoom-in" data-aos-duration="500"className="HomeSectionSubTitle2" >On Fillgood it has never been more important to participate!</p>
             {/* <p data-aos="zoom-in" data-aos-duration="600"className="HomeSectionSubTitle1" >and earn your first Figos !</p> */}
             <div className="HomeItemContainer">
