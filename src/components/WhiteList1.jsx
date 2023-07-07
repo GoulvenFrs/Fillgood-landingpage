@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import { useForm } from "@formcarry/react";
+/* import { useForm } from "@formcarry/react"; */
 import Patch from "../images/pastille2.png";
 
-export default function WhiteList() {
+export default function WhiteList1() {
   // Call the "useForm" hook in your function component
 /*   const { state, submit } = useForm({
     id: "Autofy5RJn",

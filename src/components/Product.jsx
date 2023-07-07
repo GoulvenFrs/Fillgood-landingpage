@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import WhiteList from './WhiteList';
+import WhiteList from './WhiteList1';
 import Runner from "../images/Runner.png";
 import Thunder from "../images/eclair.png";
 

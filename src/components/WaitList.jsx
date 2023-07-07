@@ -1,8 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { useForm } from "@formcarry/react";
 import Runner from "../images/Runner3.png";
-import WhiteList from "./WhiteList";
+import WhiteList2 from "./WhiteList2";
 
 export default function WaitList() {
 
@@ -16,7 +15,7 @@ export default function WaitList() {
         <p className="ContactSectionTitle1"> and receive the first</p>
         <p className="ContactSectionTitle1">rewards reserved for </p>
         <p className="ContactSectionTitle1"> early adopters !</p>
-        <WhiteList/>
+        <WhiteList2/>
       </div>
     </div>
   );
