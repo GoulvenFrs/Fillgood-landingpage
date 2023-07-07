@@ -25,7 +25,7 @@ export default function WhiteList1() {
   } */
   return (
     <>
-    <p className="ProductSectionSubTitle2 top"   data-aos="zoom-in" data-aos-duration="300"/*  href="https://discord.gg/vbaEg8rv"  target="_blank" */ >Join the Waitlist :</p>
+    <p className="ProductSectionSubTitle2 "   data-aos="zoom-in" data-aos-duration="300"/*  href="https://discord.gg/vbaEg8rv"  target="_blank" */ >Join the Waitlist :</p>
     <form  id="form1" className="WhiteList" action="https://formcarry.com/s/3Xwe8FEA3u" method="POST" target="_blank" acceptCharset="UTF-8">  
 
         <input id="firstName" name="firstName" className="InputWhiteList InputName" placeholder="First name" type="text" required/>
