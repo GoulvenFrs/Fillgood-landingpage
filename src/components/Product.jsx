@@ -13,7 +13,7 @@ export default function Product() {
             <p data-aos="zoom-in" data-aos-duration="100"className="ProductSectionTitle1" > COLLECT YOUR</p>
             <p data-aos="zoom-in" data-aos-duration="200"className="ProductSectionTitle1" > FIRST FIGOS !</p>
 
-            <p data-aos="zoom-in" data-aos-duration="300"className="ProductSectionSubTitle1 top" >It has never been more essential to participate !</p>
+            <p data-aos="zoom-in" data-aos-duration="300"className="ProductSectionSubTitle1 top" >1️⃣Subscribe to Fillgood</p>
             {/* <p className="ProductSectionSubTitle2 top"   data-aos="zoom-in" data-aos-duration="300" >Join the Waitlist :</p> */}
             <WhiteList/>
           </div>

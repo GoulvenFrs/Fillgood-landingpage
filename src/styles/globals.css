@@ -370,7 +370,7 @@ body::-webkit-scrollbar {
   }
 
   .HomeSectionSubTitle2 {
-    color: var(--color3);
+    color: var(--color6);
     font-size: 1.2vw;
     font-weight: 700;
     font-family: "Inter";
