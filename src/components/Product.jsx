@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import WhiteList from './WhiteList1';
+import WhiteList1 from './WhiteList1';
 import Runner from "../images/Runner.png";
 import Thunder from "../images/eclair.png";
 
@@ -21,7 +21,7 @@ export default function Product() {
             <br/>
             <p data-aos="zoom-in" data-aos-duration="500"className="ProductSectionSubTitle3" >Sports makes you Fillgood !</p>
             {/* <p className="ProductSectionSubTitle2 top"   data-aos="zoom-in" data-aos-duration="300" >Join the Waitlist :</p> */}
-            <WhiteList/>
+            <WhiteList1/>
           </div>
         </div>
     );
