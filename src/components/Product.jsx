@@ -19,7 +19,7 @@ export default function Product() {
             <br/>
             <p data-aos="zoom-in" data-aos-duration="300"className="ProductSectionSubTitle1" >3️⃣Participate in the activity and automatically receive your rewards</p>
             <br/>
-            <p data-aos="zoom-in" data-aos-duration="500"className="HomeSectionSubTitle2" >Sports makes you Fillgood !</p>
+            <p data-aos="zoom-in" data-aos-duration="500"className="HomeSectionSubTitle3" >Sports makes you Fillgood !</p>
             {/* <p className="ProductSectionSubTitle2 top"   data-aos="zoom-in" data-aos-duration="300" >Join the Waitlist :</p> */}
             <WhiteList/>
           </div>
