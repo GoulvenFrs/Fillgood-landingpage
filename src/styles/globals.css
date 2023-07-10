@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: "NeueMontrealBoldItalic";
-  src: url("../fonts/NeueMontreal-BoldItalic.otf");
+  src: url("../fonts/NeueMontreal-BoldItalic.otf") format('otf');
 }
 
 @font-face {
   font-family: "NeueMontrealRegular";
-  src: url("../fonts/NeueMontreal-Regular.otf");
+  src: url("../fonts/NeueMontreal-Regular.otf")format('otf');
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter.ttf");
+  src: url("../fonts/Inter.ttf")format('ttf');
 }
 
 @font-face {
   font-family: "Thunder";
-  src: url("../fonts/Thunder-VF.otf");
+  src: url("../fonts/Thunder-VF.otf")format('otf');
 }
 
 :root {
