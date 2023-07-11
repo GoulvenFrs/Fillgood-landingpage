@@ -4,7 +4,7 @@
     padding-top: 1%;
   }
   
-  @media screen and ( max-width: 1200px) and (min-width :500px){
+  @media screen and ( max-width: 1200px) and (min-width :650px) ,(height < width){
     /*/////   MENU  /////*/
   
     .Menu {
@@ -291,7 +291,7 @@
     .HomeSectionSubTitle1 {
       color: white;
       font-size: 2vw;
-      font-weight: 400;
+      font-weight: 600;
       font-family: "Inter";
       text-align: left;
       margin-left:6vw;
