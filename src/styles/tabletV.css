@@ -649,7 +649,7 @@
     .line {
       position: absolute;
       left: 3rem;
-      height: 65vh;
+      height: 50vh;
       width: 2px;
       background: var(--color3);
       /* top: 2%; */
