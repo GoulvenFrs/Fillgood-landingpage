@@ -1,0 +1,898 @@
+
+
+
+/*/////   RESPONSIVE PHONE  /////*/
+.top {
+    padding-top: 7vh;
+  }
+  
+  @media screen and (max-width: 500px) {
+    /*/////   MENU  /////*/
+  
+    .Menu {
+      position: fixed;
+      background-color: var(--color3);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      height: 12vh;
+      z-index: 100;
+      top: 0;
+    }
+  
+    .MenuLogoContainer {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      width: 45vw;
+      margin-left: 10vw;
+      transition:0.2s;
+    }
+  
+    .MenuLogoContainer:hover{
+      transform: scale(1.05, 1.05);
+    }
+  
+    .MenuImg {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .LogoImg {
+      object-fit: contain;
+      width: 50px;
+      height: 50px;
+    }
+  
+    .LogoTitle {
+      padding: 1vw;
+      margin:auto;
+      color: #17ffb1;
+      font-weight: 700;
+      font-size: 7vw;
+      font-family: "NeueMontrealBoldItalic";
+      text-align: center;
+      background: linear-gradient(to right, var(--color4) 0%, var(--color1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      /* display: inline-block; */
+    }
+  
+    .MenuItemContainer {
+      display: flex;
+      width: 50%;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      
+    }
+  
+    .MenuItem {
+      background: linear-gradient(to right, var(--color4) 0%, var(--color1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 1.1em;
+      font-weight: 700;
+      font-family: "Inter";
+      text-align: center;
+      text-decoration: none;
+      transform:0.2s;
+      
+    }
+  
+    .nodisplay{
+      display:none!important;
+  
+    }
+  
+    .MenuItem:hover{
+      transform: scale(1.05, 1.05);
+    }
+  
+      /* Dropdown */
+  
+      .dropbtn {
+        background: linear-gradient(to right, var(--color4) 0%, var(--color1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.1em;
+        font-weight: 700;
+        font-family: "Inter";
+        text-align: center;
+        text-decoration: none;
+        border: none; 
+        /* z-index: 2000; */
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        /* background-color: #f1f1f1; */
+    /*     min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+        /* z-index: 1000; */
+      }
+      
+      .dropdown-content a {
+        /* color: black;
+        padding: 12px 16px; */
+        margin:10%;
+        text-decoration: none;
+        display: block;
+      }
+      
+     /*  .dropdown-content a:hover {background-color: #ddd;} */
+      
+      .dropbtn:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+    
+      .country{
+        height:5vh;
+        /* width:3; */ 
+        object-fit: contain;
+        transition:0.2s;
+      }
+    
+      .country:hover{
+        transform: scale(1.05, 1.05);
+      }
+  
+    .ConnectButton {
+      margin-right: 2%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 10;
+    }
+  
+    /*/////   FOOTER  /////*/
+  
+    .Footer {
+      /* position:fixed; */
+      background-color: var(--color3);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      height: 12vh;
+      z-index: 120;
+      bottom: 0;
+    }
+  
+    .FooterLogoContainer {
+  
+      display: none;
+      flex-direction: row;
+      text-decoration: none;
+      width: 20%;
+      margin-left: 25%;
+    }
+  
+    .FooterItemContainer {
+      display: flex;
+      width: 50%;
+      flex-direction: row;
+      justify-content:center;
+      align-items: center;
+    }
+  
+    .FooterText{
+      color:var(--color4);
+      margin-right: 1%;
+      margin-left:5%;
+    }
+  
+    .FooterSocials{
+      height: 32px;
+      width:32px;
+      margin:0.5em;
+      cursor: pointer;
+      transition:0.2s;
+    }
+  
+    .FooterSocials:hover{
+      transform: scale(1.05, 1.05);
+    }
+    /*/////   MAIN  /////*/
+    .Main {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .First {
+      height: 12vh;
+    }
+  
+    .Anchor {
+      display: block;
+      height: 12vh;
+      margin-top: -12vh;
+      visibility: hidden;
+    }
+  
+    .MainSection {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      height: 100%;
+      width: 100%;
+    }
+  
+    .MainSection::before {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+  
+    .MainSectionZoneText {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      height: 88vh;
+      width: 80%;
+      margin: auto;
+    }
+  
+    /*/////   BACKGROUND  /////*/
+  
+    .Background1 {
+      background: linear-gradient(90deg, var(--color6), var(--color3));
+    }
+  
+    .Background1::before {
+      mask-image: linear-gradient(to bottom, transparent, black);
+      background: linear-gradient(90deg, var(--color4), var(--color5));
+    }
+  
+    .Background2 {
+      background: linear-gradient(90deg, var(--color4), var(--color5));
+    }
+  
+    .Background2::before {
+      mask-image: linear-gradient(to bottom, transparent, black);
+      background: linear-gradient(90deg, var(--color6), var(--color3));
+    }
+  
+    /*/////   HOME   /////*/
+  
+    .Home {
+      height: 88vh !important;
+      width: 100%;
+    }
+    .Home::before {
+      height: 88vh !important;
+    }
+  
+    .HomeSectionImg1 {
+      height: 50vh;
+      position: absolute;
+      object-fit: contain;
+      right: 0;
+      /* padding-left:40vw; */
+      /* margin-right: 5vw; */
+    }
+  
+    .HomeSectionTitle1 {
+      background: linear-gradient(to right, var(--color4) 0%, var(--color1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 13vw;
+      font-weight: 700;
+      font-family: "Thunder";
+      text-align: left;
+      width: 80vw;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      z-index: 10;
+      margin-left:10%;
+    }
+  
+    .HomeSectionSubTitle1 {
+      color: white;
+      font-size: 3.5vw;
+      font-weight: 400;
+      font-family: "Inter";
+      text-align: left;
+      width: 80vw;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      z-index: 10;
+      margin-left:15%;
+    }
+  
+    .HomeSectionSubTitle2 {
+      color: var(--color2);
+      font-size: 5vw;
+      font-weight: bolder;
+      font-family: "Inter";
+      text-align: left;
+      width: 80vw;
+      margin-left:15%;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      /* margin-top:1%; */
+      z-index: 10;
+    }
+  
+    
+    .HomeItemContainer {
+      display: flex;
+      margin-top:7vh;
+      /* margin-left: 25vw; */
+      /* width: 30vw; */
+      flex-direction: column;
+      justify-content:center;
+      justify-self: center;
+      align-items: center;
+      width:80%;
+      margin-left:10%;
+      z-index: 10;
+    }
+  
+    .HomeSocialText{
+      color:var(--color4);
+      font-family: "Inter";
+      font-weight: bolder;
+      justify-self: center;
+      align-self: center;
+      text-align: center;
+      font-size: 1.1em;
+      margin-bottom:2%;
+    }
+  
+    .HomeSocialGroup{
+      /* width:30vw; */
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      align-items: center;
+    }
+  
+    .HomeSocials{
+      /* height: 5vh; */
+      object-fit: contain;
+      width:10vw;
+  /*     margin:1.5em;
+      padding:0.5em; */
+      /* padding:10%; */
+      cursor: pointer;
+      transition:  0.2s;
+    }
+  
+    .HomeSocials:hover{
+      transform: scale(1.05, 1.05);
+    }
+  
+  
+    /*/////   PRODUCT   /////*/
+  
+    .ProductSectionImg1 {
+      height: 50vh;
+      position: absolute;
+      object-fit: contain;
+      max-width: 40%;
+      right: 30%;
+    }
+  
+    .ProductSectionTitle1 {
+      background: linear-gradient(to right, var(--color4) 0%, var(--color1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 15vw;
+      font-weight: 700;
+      font-family: "Thunder";
+      text-align: left;
+      width: 80vw;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      z-index: 10;
+      margin-left: 10%;
+    }
+  
+    .ProductSectionSubTitle1 {
+      color: white;
+      font-size: 3.5vw;
+      font-weight: 400;
+      font-family: "Inter";
+      text-align: left;
+      width: 80vw;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      z-index: 10;
+      margin-left: 15%;
+      width: 80%;
+      /* margin-right:10%; */
+    }
+  
+    .ProductSectionSubTitle3 {
+      color: white;
+      font-size: 5.5vw;
+      font-weight: bolder;
+      font-family: "Inter";
+      text-align: left;
+      width: 80vw;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      z-index: 10;
+      margin-left: 15%;
+      width: 80%;
+      /* margin-right:10%; */
+    }
+  
+  
+    .ProductSectionSubTitle2 {
+      color: var(--color6);
+      text-transform: uppercase;
+      font-size:12vw;
+      font-weight: bolder;
+      font-family: "Thunder";
+      text-align: center;
+      width: 100vw;
+      margin-top: 5%; 
+      z-index: 10;
+     /*  transition:0.2s; */
+    }
+  
+  /*   .ProductSectionSubTitle2:hover{
+      transform: scale(1.05, 1.05);
+    } */
+  
+    /*/////   SPORTS   /////*/
+  
+    .SportsTitle {
+      font-family: "Thunder";
+      color: var(--color3);
+      font-size: 8vw;
+      font-weight: 600;
+      z-index: 10;
+      text-align: center;
+      margin: auto;
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+    }
+  
+    .Card {
+      margin: 1%;
+      background-color: var(--color3);
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .CardImage {
+      width: 100%;
+      border-radius: 1rem;
+    }
+  
+    .CardText {
+      font-family: "Inter";
+      color: var(--color1);
+      font-size: 0.8rem;
+      /* font-weight: 700; */
+      padding-top: 0.5rem;
+      padding-left: 0.5rem;
+      /* letter-spacing: 0.05em */
+    }
+  
+    .CardTitle {
+      font-family: "Thunder";
+      color: var(--color1);
+      font-size: 1rem;
+      font-weight: 700;
+      padding-left: 0.75rem;
+      letter-spacing: 0.05em;
+    }
+  
+    /*/////   CAROUSEL   /////*/
+  
+    .carousel-container {
+      padding-top: 2.5vw;
+      padding-bottom: 2.5vw;
+      margin-top: 10%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .carousel-wrapper {
+      display: flex;
+      width: 100%;
+      position: relative;
+    }
+  
+    .carousel-content-wrapper {
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .carousel-content {
+      display: flex;
+      transition: all 250ms linear;
+      -ms-overflow-style: none; /* hide scrollbar in IE and Edge */
+      scrollbar-width: none; /* hide scrollbar in Firefox */
+    }
+  
+    /* hide scrollbar in webkit browser */
+    .carousel-content::-webkit-scrollbar,
+    .carousel-content::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .carousel-content > * {
+      width: 100%;
+      flex-shrink: 0;
+      flex-grow: 1;
+    }
+  
+    .carousel-content.show-2 > * {
+      width: 50%;
+    }
+  
+    .carousel-content.show-3 > * {
+      width: calc(94% / 3);
+    }
+  
+    .carousel-content.show-4 > * {
+      width: calc(100% / 4);
+    }
+  
+    .left-arrow,
+    .right-arrow {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-33%);
+      width: 48px;
+      height: 48px;
+      /*   border-radius: 24px;
+    background-color: white;
+    border: 1px solid #ddd; */
+    }
+  
+    .left-arrow {
+      left: -4rem;
+      color: var(--color1);
+      font-weight: bolder;
+      font-size: 2rem;
+    }
+  
+    .right-arrow {
+      right: -4rem;
+      color: var(--color1);
+      font-weight: bolder;
+      font-size: 2rem;
+      display:none
+    }
+  
+    @media (hover: none) and (pointer: coarse) {
+      .left-arrow,
+      .right-arrow {
+        display: none;
+      }
+    }
+  
+    /*/////   ROADMAP   /////*/
+  
+    .Roadmap {
+      height: 100% !important;
+    }
+    .Roadmap::before {
+      height: 100% !important;
+    }
+  
+    .Roadmap .container {
+      /*  margin-top: 12vh; */
+      position: relative;
+      color: var(--color2);
+      /* margin-bottom: 5%; */
+    }
+  
+    .Roadmap h2 {
+      margin-bottom: 4vh;
+      text-align: center;
+      color: var(--color2);
+      /* font-size: 3rem; */
+      font-size: 7vh;
+    }
+  
+    .Roadmap .bloc {
+      background: var(--color3);
+      margin-bottom: 2rem;
+      padding: 0.5rem;
+      position: relative;
+      margin-left: 2.5vw;
+      border-radius: 3vw;
+      width:95vw;
+    }
+  
+    .Roadmap h4 {
+      font-family: "NeueMontrealRegular";
+      color: var(--color1);
+      font-weight: 600;
+      font-size: 3.7vw;
+      margin-left: 8vw;
+      margin-bottom: 1vh;
+    }
+  
+    .Roadmap p {
+      font-family: "Inter";
+      font-size: 3vw;
+      line-height: 2.5vh;
+      margin-left: 10vw;
+      margin-right: 4vw;
+      text-align: justify;
+    }
+  
+    .Roadmap .number {
+      font-weight: 600;
+      position: absolute;
+      top: -1rem;
+      left: calc(1rem - 1px);
+      background: var(--color1);
+      padding: 1rem;
+      border-radius: 50%;
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .Roadmap .number.off {
+      background: var(--color2);
+      color: var(--color3);
+    }
+  
+    .line {
+      position: absolute;
+      left: 3rem;
+      height: 75vh;
+      width: 2px;
+      background: var(--color3);
+      /* top: 2%; */
+      /* z-index: 5; */
+    }
+  
+    /*/////   TEAM   /////*/
+  
+    .team {
+      
+      display: flex;
+      /* align-items: center; */
+      margin: auto;
+      /* margin-top:50%; */
+    }
+  
+    .team h2 {
+      margin-bottom: 1vh;
+      text-align: center;
+      color: var(--color2);
+      font-size: 7vh;
+    }
+  
+    .team .team__flex {
+      display: flex;
+      align-items: center;
+      /* justify-content: space-between; */
+      flex-direction: column;
+    }
+  
+    .team .member {
+      width: 80%;
+    }
+  
+    .ImageTeam {
+      width: 20vw;
+      /* height: 50%; */
+      object-fit: cover;
+      border-radius: 50%;
+      margin: auto;
+      background-color: linear-gradient(
+        to right,
+        var(--color4) 0%,
+        var(--color1) 100%
+      );
+    }
+  
+    .team .member h4 {
+      margin-bottom: 1rem;
+      text-align: center;
+      font-size: 1.25rem;
+      color: var(--color2);
+    }
+  
+    .team .member .job {
+      color: var(--color6);
+      font-size: 1.15rem;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  
+    .team__flex {
+      display: flex;
+      /* align-items: center; */
+      justify-content: space-evenly;
+    }
+  
+    .memberDescription {
+      text-align: justify;
+      margin: 0.5rem;
+      color: var(--color2);
+      font-size: 0.8rem;
+      font-family: "Inter";
+      overflow: hidden;
+    }
+  
+    /*/////   CONTACT   /////*/
+  
+    .ContactSectionTitle1 {
+  /*     background: linear-gradient(to right, var(--color4) 0%, var(--color1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; */
+      color:var(--color3);
+      font-size: 2.5em;
+      font-weight: 700;
+      font-family: "Thunder";
+      text-align: left;
+      /* width:45vw; */
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+      margin-left: 5%;
+      z-index: 10;
+    }
+  
+    .ContactSectionImg1{
+      height: 40vh;
+      position: absolute;
+      -o-object-fit: contain;
+      object-fit: contain;
+      right: 0;
+      /* padding-right: 5vw; */
+    }
+  
+    .uncapitalize {
+      text-transform:none!important ;
+    }
+  
+    .Form{
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      margin-top:12%;
+      margin-left: 25%;
+    }
+  
+    .Input{
+      margin-bottom: 2%;
+      border-radius: 1em;
+      padding:0.5em;
+      /* width: 50%; */
+    }
+  
+    .ButtonForm{
+      background: linear-gradient(to right, var(--color4) 0%, var(--color1) 100%);
+      border-radius: 1em;
+      padding: 0.5em;
+      font-family: "Inter" ;
+      font-weight: bold;
+      color: var(--color5);
+      /* width: 20%; */
+    }
+    
+    /* WhiteList */
+  
+    .WhiteList{
+      z-index: 50;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      /* align-items: baseline; */
+      justify-content: center;
+      width: 100%;
+      /* margin-top: 7%; */
+    }
+  
+    .InputWhiteList{
+      /* margin-bottom: 2%; */
+      border-radius: 1em;
+      padding:0.5em;
+      /* width: 25%; */
+      margin:auto;
+      margin-bottom:2%;
+    }
+  
+    .InputWhiteListMessage{
+      display:none;
+    }
+  
+    .ButtonWhiteList{
+      background: var(--color1);
+      border-radius: 1em;
+      padding: 0.5em;
+      font-family: "Inter" ;
+      font-weight: bold;
+      color: var(--color6);
+      margin:auto;
+      transition: 0.2s;
+    }
+  
+    .ButtonWhiteList:hover{
+      transform: scale(1.1, 1.1);
+    }
+  
+  
+    .Patch{
+      height: 12vh;
+      width: 20vh;
+      object-fit: contain;
+      /* transition: 0.2s; */
+    }
+  
+  /*   .Patch:hover{
+      transform: scale(1.1, 1.1);
+    } */
+  
+    .flip-card {
+      /* background-color: transparent; */
+  /*     width: 300px;
+      height: 300px; */
+      height: 12vh;
+      width: 20vh;
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      margin: auto;
+    }
+  /*   img{
+      width: 300px;
+      height: 300px;
+    } */
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+    
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg) /* rotateX(180deg) */ ;
+      /* transform: rotateZ(90deg); */
+    }
+    
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
+    
+    /* Style the front side (fallback if image is missing) */
+    .flip-card-front {
+  /*     background-color: #bbb;
+      color: black; */
+    }
+    
+    /* Style the back side */
+    .flip-card-back {
+  /*     background-color: dodgerblue;
+      color: white; */
+      transform: rotateY(180deg) /* rotateX(180deg) */;
+      /* transform: rotateZ(90deg); */
+    }
+  
+  }
