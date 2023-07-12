@@ -340,7 +340,7 @@
     }
   
     .HomeSocialGroup{
-      width:20vw;
+      width:30vw;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
@@ -350,8 +350,7 @@
       height: 5vh;
       object-fit: contain;
       /* width:32px; */
-      margin:10%;
-      padding:1%;
+      
       cursor: pointer;
       transition:  0.2s;
     }

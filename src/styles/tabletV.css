@@ -361,7 +361,7 @@
       height: 5vh;
       object-fit: contain;
       /* width:32px; */
-      margin:auto;
+      /* margin:auto; */
       cursor: pointer;
       transition:  0.2s;
     }
