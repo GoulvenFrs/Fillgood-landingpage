@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "Thunder";
-  src: url("../fonts/Thunder-BoldLC.otf") format("opentype");
+  src: url("../fonts/Thunder-BoldLC.otf") format("opentype"); 
 }
 
 @tailwind base;
